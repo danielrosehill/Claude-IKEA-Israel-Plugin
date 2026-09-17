@@ -1,0 +1,5 @@
+# Working files, captures, anything session-shaped. Never committed.
+local/
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,105 @@
+{
+  "market": "IL",
+  "language": "he",
+  "currency": "ILS",
+  "site": "https://www.ikea.com/il/he/",
+  "verified": "2026-09-17",
+  "endpoints": {
+    "search": "https://sik.search.blue.cdtapps.com/il/he/search-result-page",
+    "availability": "https://api.salesitem.ingka.com/availabilities/ru/il",
+    "stores": "https://www.ikea.com/il/he/meta-data/informera/stores-detailed.json"
+  },
+  "availability": {
+    "auth_header": "X-Client-Id",
+    "required_expand": "StoresList,Restocks,SalesLocations",
+    "max_item_nos": 50,
+    "item_no_length": [
+      8,
+      15
+    ],
+    "unique_items_required": true,
+    "message_types_observed": [
+      "HIGH_IN_STOCK",
+      "MEDIUM_IN_STOCK",
+      "OUT_OF_STOCK"
+    ],
+    "pickup_tags_observed": [
+      "CUSTOMER_PICKUP",
+      "COWORKER_PICKUP"
+    ],
+    "sales_location_divisions_observed": [
+      "SELF_SERVE",
+      "WAREHOUSE"
+    ],
+    "sales_location_types_observed": [
+      "AISLE_AND_BIN",
+      "CONTACT_STAFF"
+    ],
+    "class_unit_types_observed": [
+      "STO",
+      "RU"
+    ],
+    "item_types_observed": [
+      "ART",
+      "SPR"
+    ]
+  },
+  "class_unit_codes": {
+    "stores": [
+      {
+        "code": "206",
+        "display_name": "נתניה",
+        "city": "נתניה",
+        "address": "רח' גיבורי ישראל 1, אזה\"ת פולג, נתניה"
+      },
+      {
+        "code": "217",
+        "display_name": "ראשון לציון",
+        "city": "ראשון לציון",
+        "address": "רח' היוזמה 1, מרכז עסקים שורק, כביש פלמחים, ראשון לציון"
+      },
+      {
+        "code": "318",
+        "display_name": "קריית אתא",
+        "city": "קריית אתא",
+        "address": "דרך חיפה 52, קריית אתא"
+      },
+      {
+        "code": "531",
+        "display_name": "באר שבע",
+        "city": "באר שבע",
+        "address": "הירדן 24, באר שבע"
+      },
+      {
+        "code": "613",
+        "display_name": "אשתאול",
+        "city": "אזה\"ת הר טוב",
+        "address": "המלאכה 7, אזה\"ת הר טוב"
+      }
+    ],
+    "non_store_units_observed": [
+      {
+        "code": "523",
+        "note": "Returns cash-and-carry quantities but is absent from stores-detailed.json. Not a shoppable branch."
+      },
+      {
+        "code": "737",
+        "note": "Present in availabilities, availableForCashCarry false, absent from the store directory."
+      },
+      {
+        "code": "738",
+        "note": "Present in availabilities, availableForCashCarry false, absent from the store directory."
+      }
+    ]
+  },
+  "bidi_controls_in_dom": [
+    "U+200E",
+    "U+200F",
+    "U+202A-U+202E",
+    "U+2066-U+2069"
+  ],
+  "bidi_controls_observed_on_pdp": [
+    "U+202D",
+    "U+202C"
+  ]
+}

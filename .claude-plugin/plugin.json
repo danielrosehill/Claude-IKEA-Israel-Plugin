@@ -1,0 +1,22 @@
+{
+  "name": "ikea-israel",
+  "version": "0.1.0",
+  "description": "Per-branch stock counts, aisle and bin locations, and ILS prices for IKEA Israel's five stores, from the Hebrew/RTL site.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "url": "https://github.com/danielrosehill"
+  },
+  "repository": "https://github.com/danielrosehill/Claude-IKEA-Israel-Plugin",
+  "license": "MIT",
+  "keywords": [
+    "ikea",
+    "israel",
+    "hebrew",
+    "rtl",
+    "branch-availability",
+    "stock-check",
+    "retail",
+    "shopping",
+    "procurement"
+  ]
+}
