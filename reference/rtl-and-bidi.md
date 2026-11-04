@@ -80,7 +80,7 @@ with house numbers. `א-ד: 10:00 - 20:00` is exactly the shape that goes wrong.
 So: in a terminal reply, quote the Hebrew and let it be. In anything that gets
 sent, published or typeset — an email, a PDF, an HTML report — wrap it properly
 in an RTL container rather than hoping. That is out of scope for this plugin and
-is what the `rtl-email` and `hebrew-correspondence` plugins exist for.
+is what the `rtl-skills` plugin exists for.
 
 ---
 
