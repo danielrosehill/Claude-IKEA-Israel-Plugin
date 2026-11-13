@@ -25,7 +25,7 @@ SEARCH_BASE = "https://sik.search.blue.cdtapps.com/il/he/search-result-page"
 AVAIL_BASE = "https://api.salesitem.ingka.com/availabilities/ru/il"
 STORES_URL = "https://www.ikea.com/il/he/meta-data/informera/stores-detailed.json"
 
-# Public IKEA availability client id. Not a secret and not Daniel's: it is the
+# Public IKEA availability client id. Not a secret and not a personal one: it is the
 # id the public availability endpoint accepts. The site's own bundle sends
 # "lff", which this endpoint rejects with 401 -- see reference/api-surface.md.
 CLIENT_ID = os.environ.get("IKEA_IL_CLIENT_ID", "b6c117e5-ae61-4ef5-b4cc-e0b1e37f0631")

@@ -1,6 +1,6 @@
 {
   "name": "ikea-israel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Per-branch stock counts, aisle and bin locations, and ILS prices for IKEA Israel's five stores, from the Hebrew/RTL site.",
   "author": {
     "name": "Daniel Rosehill",
